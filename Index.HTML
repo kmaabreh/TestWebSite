@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>منتجاتنا</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        header {
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #10cfd9;
+          
+        }
+        nav {
+            display: flex;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        nav ul li a:hover {
+            color: #ff6347; 
+        }
+        .hero {
+            background-image: url(bgheader.jpg);
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            text-align: center;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            max-width: 600px;
+        }
+        .cta {
+            background-color: #ff6347;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .intro {
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /*width: 25%;*/
+              }
+        marquee {
+            /*box-shadow: 0 1px 3px #5e08081a;*/
+            border: 1px solid red;
+            background-color:beige;
+            padding: 10px;
+            font-size: large;
+            font-weight: bolder;
+            color: red;
+            animation: infinite;
+            position:sticky;
+            
+              }
+    </style>
+</head>
+<body dir="rtl">
+  
+    <header style="font-weight: bold; background-color: powderblue;">
+        <div class="center">
+          <figure>
+            <img src="logo.jpg" style="border: 2px solid red; border-radius: 50%; width:150px;">  
+            <figcaption style="color: red;"><h2><center>شركة عالم الالعاب</center></h2></figcaption>
+          </figure>
+        </div>    
+    </header>
+    <br>
+<section>
+  <header style="font-weight: bold;"> 
+    <nav>
+        <ul>
+            <li><a href="Index.HTML">الصفحة الرئيسية</a></li>
+            <li><a href="service.html">منتجاتنا</a></li>
+            <li><a href="Contact us.html">اتصل بنا</a></li>
+            <li><a href="review.html">آرائكم تهمنا</a></li>
+            <li><a href="about us.html" class="active">من نحن</a></li>
+        </ul>
+    </nav>
+</header>
+
+</section>
+  
+<section class="hero">
+    <h2>أهلاً بكم في موقع شركة عالم الالعاب</h2>
+    <p>اكتشف أفضل الالعاب الممتعة واستمتع بتجربة المزايا والمواصفات المتوفرة فقط .... معنا!</p>
+    <a href="service.html" class="cta">اكتشف الالعاب</a>
+</section>
+<section>
+  <marquee width="100%" direction="right" behavior="scrolling" scrollamount="15" scroldelay="0">
+      أهلا بكم في موقعنا ...✨✨✨✨.. يمكنكم اكتشاف المزيد ..🚀🚀🚀. تابعونا لتجدوا كل ما هو جديد وممتع✨✨✨ نشكر لكم زيارتكم 🔥🔥🔥
+</marquee>
+</section>
+</body>
+</html>
